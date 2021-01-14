@@ -1,4 +1,5 @@
 // import the Sequelize constructor from the library
+const mysql = require('mysql2')
 const Sequelize = require('sequelize');
 
 require('dotenv').config();
